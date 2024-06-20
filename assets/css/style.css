@@ -1,0 +1,106 @@
+@font-face{
+    font-family: "Poppins";
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Cinzel";
+    src: url("../fonts/Cinzel/CinzelDecorative-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --border: #ccc;
+    --color-logo: #999;
+    --color-home: #fff;
+    --color: #333;
+}
+
+/* --------------------------------- */
+
+body{
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ------------  General style ----------------- */
+
+header{
+    padding: 2em 8rem;
+}
+
+h1, h2, h3{
+    font-family: "Cinzel", sans-serif;
+}
+
+
+h1{
+    color: var(--color-home);
+    padding: 40vh 0;
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color);
+}
+
+h3{
+    color: var(--color-logo);
+    font-size: 1.5rem;
+}
+
+li{
+    font-size: 1rem;
+
+}
+
+
+section:nth-of-type(1){
+    background: url("https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80")center/cover no-repeat;
+    text-align: center;
+}
+
+
+section:nth-of-type(2){
+    text-align: center;
+    padding: 5rem 20rem;
+}
+
+/* ******* Gallery ******* */
+
+article{
+    margin-bottom: 1rem;
+}
+
+article img{
+    width: 25%;
+    margin-right: 5%;
+}
+
+
+/* ******* Tour Dates Listenelemente ******* */
+
+section:nth-of-type(3){
+    color: var(--color);
+    margin-bottom: 2rem;
+    
+}
+
+li:nth-of-type(1) span, li:nth-of-type(2) span,li:nth-of-type(3) span,li:nth-of-type(4) span{
+    color: red;
+
+    
+}
+
+li:nth-of-type(5) span, li:nth-of-type(6) span {
+    color: green;
+}
+
+
